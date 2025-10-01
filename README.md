@@ -25,7 +25,7 @@ A React app that works as an AI-powered interview assistant with chat for candid
   - Refreshing or closing the page restores sessions
 
 
-** Tech Stack**
+** TechStack**
 
 - **Frontend:** React + TypeScript  
 - **Bundler:** Vite  
