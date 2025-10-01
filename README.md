@@ -40,7 +40,7 @@ resume-to-chat-ai/
 
 ```
 
-
+```
 1. Clone repository
 git clone https://github.com/shreya841/resume-to-chat-ai.git
 cd resume-to-chat-ai
@@ -50,3 +50,4 @@ npm install
 npm run dev
 4.Open in browser
 http://localhost:8080/
+```
