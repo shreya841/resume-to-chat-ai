@@ -28,28 +28,25 @@ A React app that works as an AI-powered interview assistant with chat for candid
 
 ---
 
-## Project Structure
-
 resume-to-chat-ai/
 ├── src/
 │ ├── components/ # Chat, dashboard, UI components
 │ ├── pages/ # IntervieweeTab, InterviewerTab
 │ ├── hooks/ # Custom hooks
-│ ├── utils/ # Helper functions (question generator)
+│ └── utils/ # Helper functions (question generator)
 ├── public/ # Public assets
 ├── package.json
 ├── vite.config.ts
-├── README.md
+└── README.md
 
-
-1. **Clone repository**
+1. ##Clone repository
 
 ```bash
 git clone https://github.com/shreya841/resume-to-chat-ai.git
 cd resume-to-chat-ai
-2 **Install dependencies**
+##2 Install dependencies
 npm install
-3.**Start development server**
+##3.Start development server
 npm run dev
-4.**Open in browser**
+##4.Open in browser
 http://localhost:8080/
