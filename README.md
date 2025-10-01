@@ -6,19 +6,26 @@ A React app that works as an AI-powered interview assistant with chat for candid
 ---
 
 ## Features
+ **Interviewee Tab**
+  - Upload resume (PDF/DOCX)
+  - Extract Name, Email, Phone
+  - Chatbot collects missing information
+  - Timed interview questions: 6 questions (2 Easy → 2 Medium → 2 Hard)
+  - Auto-submit answers when time runs out
+  - Final AI-generated score and summary
 
-- Two tabs: **Interviewee (Chat)** and **Interviewer (Dashboard)**
-- Resume upload (PDF/DOCX) with automatic extraction of **Name, Email, Phone**
-- Missing information collection by chatbot before starting the interview
-- Timed interview with AI-generated questions (6 questions: 2 Easy, 2 Medium, 2 Hard)
-- Automatic scoring and short summary after interview completion
-- Local data persistence (candidates can resume unfinished sessions)
-- “Welcome Back” modal for unfinished sessions
-- Clean and responsive UI built with shadcn-ui + Tailwind CSS
+- **Interviewer Tab (Dashboard)**
+  - List of candidates ordered by score
+  - View each candidate’s chat history, profile, and summary
+  - Search and sort candidates
+  - Pause/resume interviews with “Welcome Back” modal
+
+- **Persistence**
+  - All timers, answers, and progress saved locally
+  - Refreshing or closing the page restores sessions
 
 
-
- Tech Stack
+ ##Tech Stack
 
 - **Frontend:** React + TypeScript  
 - **Bundler:** Vite  
@@ -26,8 +33,9 @@ A React app that works as an AI-powered interview assistant with chat for candid
 - **State Management & Persistence:** Redux / LocalStorage  
 - **Development:** Node.js & npm
 
+##Project Structure
 ```
-resume-to-chat-ai/
+resume-to-chat-ai-main2/
 ├── src/
 │ ├── components/ # Chat, dashboard, UI components
 │ ├── pages/ # IntervieweeTab, InterviewerTab
@@ -39,7 +47,7 @@ resume-to-chat-ai/
 └── README.md
 
 ```
-
+##Installation
 ```
 1. Clone repository
 git clone https://github.com/shreya841/resume-to-chat-ai.git
