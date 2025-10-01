@@ -59,3 +59,9 @@ npm run dev
 4.Open in browser
 http://localhost:8080/
 ```
+## 🚀 Deployment
+
+The project is live here: (https://resume-to-chat-ai.vercel.app)
+
+Deployed on **Vercel** with automatic builds from the GitHub repository.  
+Any changes pushed to the `main` branch are automatically reflected on the live site.
