@@ -25,7 +25,7 @@ A React app that works as an AI-powered interview assistant with chat for candid
   - Refreshing or closing the page restores sessions
 
 
- ##Tech Stack
+** Tech Stack**
 
 - **Frontend:** React + TypeScript  
 - **Bundler:** Vite  
@@ -33,7 +33,7 @@ A React app that works as an AI-powered interview assistant with chat for candid
 - **State Management & Persistence:** Redux / LocalStorage  
 - **Development:** Node.js & npm
 
-##Project Structure
+**Project Structure**
 ```
 resume-to-chat-ai-main2/
 ├── src/
@@ -47,7 +47,7 @@ resume-to-chat-ai-main2/
 └── README.md
 
 ```
-##Installation
+**Installation**
 ```
 1. Clone repository
 git clone https://github.com/shreya841/resume-to-chat-ai.git
